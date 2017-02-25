@@ -1,0 +1,34 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# 01 Scenario Workshop - CASE29
+
+1. Workbooks Intro\
+   1\.1.    Elements
+   1\.2.
+
+2. Architecture, Nomenclature
+
+3. Demo Console
+
+```csharp
+string[] names = new string[]
+{
+    "Lara",
+    "Nina",
+    "Jana",
+    "Mama",
+    "Tata",
+    "Sep",
+    "Muhlo",
+    "Komki",
+    "Fticek",
+};
+foreach (string s in names)
+{
+    Console.WriteLine("Name = " + s.ToUpper() );
+}
+```
