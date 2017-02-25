@@ -1,0 +1,15 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+```csharp
+Console.WriteLine("Bok ja sam Jana");
+```
+
+```csharp
+Console.ForegroundColor = ConsoleColor.Red;
+string text = "Bok ja sam Moljac i volim Dinamo";
+Console.WriteLine(text);
+```
