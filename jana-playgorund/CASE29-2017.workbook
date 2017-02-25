@@ -1,0 +1,28 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# Janino predavanje CASE 29
+
+```csharp
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("Bok ja sam Jana i volim Sepa");
+```
+
+```csharp
+string [] names = new string []
+{
+   "sandra",
+   "lara",
+   "moljac",
+   "jana",
+   "nina", 
+};
+foreach(string name in names)
+{
+    Console.WriteLine("Name =" + name.ToUpper());
+}
+```
+
