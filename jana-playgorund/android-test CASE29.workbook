@@ -1,0 +1,29 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# Jana’s Android Test for CASE 29
+
+```csharp
+using Android;
+using Android.App;
+using Android.OS;
+using Android.Widget;
+```
+
+```csharp
+var root_activity = StartedActivities.First();
+Android.Widget.Button b = new Android.Widget.Button(root_activity)
+{
+    Text = "Stisni me :]",
+    TextSize = 36,
+};
+int count = 0;
+b.Click += delegate
+{
+    b.Text = "Stisnuto = " + (count++).ToString();
+};
+root_activity.SetContentView(b);
+```
