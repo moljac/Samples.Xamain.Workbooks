@@ -1,0 +1,36 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# Intro to C# - Console
+
+Steps:
+
+1. define “using”s neccessary
+
+```csharp
+using System;
+```
+
+2. code define variables
+
+```csharp
+string text = null;
+double age = 10.4999;
+int a = 3;
+long b = 500000;
+```
+
+```csharp
+Console.WriteLine("Bok Jana 2".ToLower());
+Console.WriteLine(String.Format("{0:0.000}", age));
+```
+
+3. code variable manipulation
+
+```csharp
+long c  =  a + b;
+long d =  a * b;
+```
