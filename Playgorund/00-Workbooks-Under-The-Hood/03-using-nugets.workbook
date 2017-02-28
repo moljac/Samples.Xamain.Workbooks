@@ -1,0 +1,24 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+packages:
+- id: Sprache
+  version: 2.1.0
+- id: SemverSharp
+  version: 0.1.1.1
+- id: Sprache.Calc
+  version: 1.0.0
+---
+
+# Using nuget packages
+
+Currently 2017-02 - Mac Only
+
+Menu:\
+\
+File +/ Add package
+
+```csharp
+#r "Sprache"
+```
