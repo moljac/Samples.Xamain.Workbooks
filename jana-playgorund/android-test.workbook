@@ -1,0 +1,23 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# Jana’s Android Test
+
+```csharp
+using Android;
+using Android.App;
+using Android.OS;
+using Android.Widget;
+```
+
+```csharp
+var root_activity = StartedActivities.First();
+Android.Widget.Button(root_activity);
+{
+    Text = Stisni me :]
+    TextSize = 36
+};
+```
