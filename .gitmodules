@@ -1,0 +1,6 @@
+[submodule "external/xamarin-Workbooks"]
+	path = external/xamarin-Workbooks
+	url = https://github.com/xamarin/Workbooks.git
+[submodule "external/conceptdev-xamarin-workbook-samples"]
+	path = external/conceptdev-xamarin-workbook-samples
+	url = https://github.com/conceptdev/xamarin-workbook-samples.git

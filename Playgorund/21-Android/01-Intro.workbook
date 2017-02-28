@@ -1,0 +1,21 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# 01 Woorkbook as Document
+
+* Markdown combined with executable code snippets
+
+  * ideal for
+  
+    * documentation (Recipes, HowTos)
+  
+    * teaching - kids (no need for complex tools)
+
+  * format
+  
+    * single file
+  
+    * folder structure

@@ -1,0 +1,47 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# Intro to Xamarin.Workbooks
+
+##  Use Cases
+
+* documentation
+* HowTos
+* Recipes
+* interactive learning/teaching/mentoring
+
+##  Links / References
+
+### Official Xamarin
+
+* Learn interactively with Xamarin.Workbooks
+  [https://developer.xamarin.com/workbooks/](https://developer.xamarin.com/workbooks/)
+
+* Xamarin Workbooks
+  [https://developer.xamarin.com/guides/cross-platform/workbooks/](https://developer.xamarin.com/guides/cross-platform/workbooks/)
+
+
+
+### Diverse
+
+* Xamarin Workbooks - The (Interactive) Future of Technical Docs
+  [https://msdn.microsoft.com/en-us/magazine/mt790187.aspx](https://msdn.microsoft.com/en-us/magazine/mt790187.aspx)
+
+* Introducing Workbooks & Inspector  
+  [https://blog.xamarin.com/introducing-workbooks-inspector/](https://blog.xamarin.com/introducing-workbooks-inspector/)
+
+* Channel9: Snack Pack 4: Interactive Learning with Xamarin Workbooks
+  [https://channel9.msdn.com/Shows/XamarinShow/Snack-Pack-4-Interactive-Learning-with-Xamarin-Workbooks](https://channel9.msdn.com/Shows/XamarinShow/Snack-Pack-4-Interactive-Learning-with-Xamarin-Workbooks)
+
+* Introducing Xamarin Workbooks
+  [http://conceptdev.blogspot.hr/2016/04/introducing-xamarin-workbooks.html](http://conceptdev.blogspot.hr/2016/04/introducing-xamarin-workbooks.html)
+
+* 
+  []()
+
+* 
+  []()
+
