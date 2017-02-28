@@ -6,13 +6,13 @@ platforms:
 
 # 01 Scenario Workshop - CASE29
 
-1. Workbooks Intro\
-   1\.1.    Elements
-   1\.2.
+1. Workbooks Intro  
+   1.1. Elements\
+   1.2.      
 
 2. Architecture, Nomenclature
 
-3. Demo Console
+3. Demo String Console
 
 ```csharp
 string[] names = new string[]
