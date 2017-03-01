@@ -1,0 +1,33 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+```csharp
+using System;
+```
+
+# Janin Console primjer
+
+## writeline
+
+```csharp
+Console.WriteLine("Bok ja sam Jana");
+```
+
+```csharp
+string name = "Jana Cvjetko";
+```
+
+```csharp
+string[] names = new string[]
+{
+   "Jana",
+   "Nina",
+   "Lara",
+};
+foreach(string name in names){
+    Console.WriteLine("Ime ="+ name);
+}
+```

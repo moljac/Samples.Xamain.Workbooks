@@ -1,0 +1,37 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Android
+---
+
+```csharp
+using Android;
+using Android.OS;
+using Android.App;
+using Android.Widget;
+```
+
+```csharp
+var root_activity = StartedActivities.First();
+Android.Webkit.WebView b = new Android.Webkit.WebView(root_activity)
+{
+    
+};
+int count =1;
+/*
+b.Click += delegate 
+{
+     b => b.Text = "Brojac " + count++;
+     };
+     */
+b.LoadUrl("http://xamarin.com");
+root_activity.SetContentView(b);
+```
+
+```csharp
+System.Net.WebClient wc = new System.Net.WebClient();
+```
+
+```csharp
+string text =  wc.DownloadString("http://xamarin.com");
+```
