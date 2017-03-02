@@ -25,4 +25,3 @@ foreach(string name in names)
     Console.WriteLine("Name =" + name.ToUpper());
 }
 ```
-

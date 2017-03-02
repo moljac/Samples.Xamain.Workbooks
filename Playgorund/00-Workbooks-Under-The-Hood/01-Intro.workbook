@@ -6,8 +6,12 @@ platforms:
 
 # Xamarin.Workbooks unde the hood
 
-##  Use Cases
+## Use Cases
 
 * Using external Libraries
 
 * Using nugets
+
+```csharp
+DateTime dob = new DateTime(2006, 6, 5);
+```

@@ -1,0 +1,38 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Android
+---
+
+# Jana’s Android Test for CASE 29
+
+```csharp
+using Android;
+using Android.App;
+using Android.OS;
+using Android.Widget;
+using Android.Webkit;
+```
+
+```csharp
+var root_activity = StartedActivities.First();
+Android.Webkit.WebView w = new Android.Webkit.WebView(root_activity);
+```
+
+```csharp
+root_activity.SetContentView(w);
+```
+
+```csharp
+System.Net.WebClient wc = new System.Net.WebClient();
+string html = wc.DownloadString("http://xamarin.com");
+```
+
+```csharp
+w.Settings.JavaScriptEnabled = true;
+w.LoadData(html, "text/html", "UTF-8");
+```
+
+```csharp
+//w.LoadUrl("http://holisticware.net");
+```

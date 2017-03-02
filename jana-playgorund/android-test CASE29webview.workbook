@@ -4,7 +4,7 @@ platforms:
 - Console
 ---
 
-# Jana’s Android Test
+# Jana’s Android Test for CASE 29
 
 ```csharp
 using Android;
@@ -15,10 +15,10 @@ using Android.Widget;
 
 ```csharp
 var root_activity = StartedActivities.First();
-Android.Widget.Button b = new Android.Widget.Button(root_activity)
+Android.Webkit.WebView w = new Android.Webkit.WebView(root_activity)
 {
-    Text = "Stisni me :]",
-    TextSize = 36,
+    
 };
-root_activity.SetContentView(b);
+w.LoadUrl("http://holisticware.net");
+root_activity.SetContentView(w);
 ```
