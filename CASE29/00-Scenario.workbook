@@ -7,7 +7,10 @@ platforms:
 # 01 Scenario Workshop - CASE29
 
 1. Workbooks Intro  
-   1.1. Elements
+   1.	Woorkbook purpose / Use Cases
+   2.	Workbook Elements		
+		1.	Cells		
+		2.	
    1.2. Under the hood     
 
 2. Architecture, Nomenclature
