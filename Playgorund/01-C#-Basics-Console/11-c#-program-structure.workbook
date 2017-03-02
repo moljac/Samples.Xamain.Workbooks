@@ -1,0 +1,65 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
+# 01 C# Program Structure
+
+A C# program consists of the following parts:
+
+* 
+
+* 
+
+* A Main method
+
+* Statements and Expressions
+
+* Comments
+
+## Namespaces
+
+C# scripting doesn’t support declaring namespaces - in script code like Workbooks namespaces are not allowed.
+
+```csharp
+//namespace Utilities
+{
+    // Declarations and Definitions for Classes / Structs / Enums
+}
+```
+
+## Classes
+
+```csharp
+public class Person
+{
+
+}
+```
+
+In C# scripting user can declare the same construct (variable, class, function and so forth) over and over again.
+
+```csharp
+public partial class City
+{
+    public string Name;
+}
+```
+
+```csharp
+public partial class City
+{
+    public int Zip;
+}
+```
+
+The last declaration shadows any earlier declaration.
+
+```csharp
+City zagreb = new City()
+{
+    // Name = "Zagreb", // error!
+    Zip = 10000    
+}
+```
