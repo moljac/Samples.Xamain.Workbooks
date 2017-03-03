@@ -1,0 +1,6 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+---
+
